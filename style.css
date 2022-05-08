@@ -1,25 +1,84 @@
-* {
+body {
     background-image: url(img/99.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: transparent;
 }
 
 #cartoon {
     display: flex;
     justify-content: center;
+    flex-direction: wrap;
+    height: 100%;
 }
 
-#dataOne {
+.buttons {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    font-size: 16px;
+    padding: 20px;
 }
 
-#dataTwo {
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonRed {
+    background-color: #f33c22;   
+}
+
+.buttonBlue {
+    background-color: #1778c4;  
+}
+
+.buttonGreen {
+    background-color: #27aa48;  
+}
+
+.transaction {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.center {
+    margin-left: 40px;
+}
+
+strong {
+    color: #f33c32;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imgsOne {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    margin: 20px;
+}
+
+.imgsTwo {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    margin: 20px;
+}
+
+.imgCenter {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
 }
 
 #fono {
@@ -30,7 +89,6 @@
 #fonoCartoon {
     max-width: 300px;
     max-height: 300px;
-    position: relative;
 }
 
 #security {
@@ -57,11 +115,4 @@
     margin-left: 60px;
 }
 
-.one {
-    background-color: #f44336;   
-}
 
-button {
-    font-size: 16px;
-    border-radius: 8px;
-}
