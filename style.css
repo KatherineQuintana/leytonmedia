@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
 }
 
+
 #cartoon {
     display: flex;
     justify-content: center;
@@ -11,11 +12,30 @@ body {
     height: 100%;
 }
 
+#security {
+    display: flex;
+    justify-content: center;
+}
+
+#yellow{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#logo{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#green{
+    max-width: 250px;
+    max-height: 250px;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
     font-size: 16px;
-    padding: 20px;
 }
 
 button {
@@ -25,11 +45,11 @@ button {
     width: 170px;
     height: 50px;
     color: white;
-    text-decoration: none;
+    border: none;
 }
 
 .buttonRed {
-    background-color: #f33c22;   
+    background-color: #f33c22;  
 }
 
 .buttonBlue {
@@ -44,15 +64,24 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 70px;
+    margin: 30px;
+}
+
+.app {
+    margin-left: 60px;
 }
 
 .center {
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 strong {
     color: #f33c32;
+    font-size: 20px;
+}
+
+.appBox {
+    line-height: 0.5px;
 }
 
 .column {
@@ -78,41 +107,22 @@ strong {
 .imgCenter {
     width: 50px;
     height: 50px;
-    margin: 20px;
+    margin: 15px;
 }
 
 #fono {
     display: flex;
     justify-content: flex-end;
+    margin-right: 70px;
 }
 
 #fonoCartoon {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
-#security {
-    display: flex;
-    justify-content: center;
-}
-
-#yellow{
-    max-width: 250px;
-    max-height: 250px;
-}
-
-#logo{
-    max-width: 250px;
-    max-height: 250px;
-}
-
-#green{
-    max-width: 250px;
-    max-height: 250px;
-}
-
-.app {
-    margin-left: 60px;
+.footer {
+    border-radius: 10px;
 }
 
 
